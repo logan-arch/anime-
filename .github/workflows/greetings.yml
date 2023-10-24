@@ -1,0 +1,38 @@
+name: manga home Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Message that will be displayed on users' first issue"
+        pr-message: "Message that will be displayed on users' first pull request"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Manga & Anime World</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Manga & Anime World</h1>
+    </header>
+    <main>
+        <p>
+            Discover a world of adventure, imagination, and endless entertainment through the pages of manga and the screens of anime. At Manga & Anime World, we're your gateway to this captivating universe. Whether you're a seasoned otaku or just starting your journey, our collection of manga and anime is here to ignite your passion, transport you to fantastical worlds, and share in the excitement of this beloved art form.
+        </p>
+        <p>
+            Feel free to explore our extensive library, discover new series, and connect with fellow enthusiasts in our vibrant community. We're here to make your manga and anime experience unforgettable. So, get ready to dive into your favorite stories, meet intriguing characters, and embark on epic adventures.
+        </p>
+    </main>
+    <footer>
+        &copy; 2023 Manga & Anime World
+    </footer>
+</body>
+</html>
