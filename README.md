@@ -41,7 +41,8 @@ npm install http-proxy
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const target = 'http://squid.com'; // 
+const target = 'http://www.squid-cache.org
+//'; // 
 const proxy = httpProxy.createProxyServer({});
 
 const server = http.createServer((req, res) => {
