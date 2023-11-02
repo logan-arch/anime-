@@ -31,24 +31,7 @@ will have anime and ways to read manga or watch.
             <a href="https://www.anime-planet.com/">Anime-Planet</a>
             <!-- Add more external anime sources here -->
       
-const target = 'http://www.squid-cache.org
-
-const http = require('http');
-const httpProxy = require('http-proxy');
-
-const proxy = httpProxy.createProxyServer({});
-
-const server = http.createServer((req, res) => {
-  // Define the target URL you want to proxy to.
-  const target = 'https://sqid-cache.org/';
-
-  // Proxy the request to the target URL.
-  proxy.web(req, res, { (https://sqid-cache.org/) });
-});
-
-server.listen(8080, () => {
-  console.log('Proxy server is running on port 1');
-});
+ 'http://www.squid-cache.org
 
  <p>
  <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px;">
