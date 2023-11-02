@@ -1,6 +1,19 @@
 # anime-
 will have anime and ways to read manga or watch.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
