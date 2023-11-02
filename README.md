@@ -31,7 +31,7 @@ will have anime and ways to read manga or watch.
             <a href="https://www.anime-planet.com/">Anime-Planet</a>
             <!-- Add more external anime sources here -->
       
- 'http://www.squid-cache.org
+ http://www.squid-cache.org
 
  <p>
  <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px;">
