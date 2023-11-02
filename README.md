@@ -23,7 +23,7 @@ will have anime and ways to read manga or watch.
         <p>
             <a href="https://allmanga.to/">AllManga.to</a>
             <!-- Add more external manga sources here -->
-        </p>
+        </p> https://manhwaz.com/
     </section>
     <section id="watching">
         <h2>Watch Anime</h2>
